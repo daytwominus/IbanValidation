@@ -1,0 +1,10 @@
+/.vs/*
+/Iban.Validation.WebService/bin/Debug/netcoreapp2.1/*
+/Iban.Validation.WebService/obj/Debug/netcoreapp2.1/*
+/Iban.Validation.WebService/obj
+/Iban/bin/Debug/netcoreapp2.1/*
+/Iban/obj/Debug/netcoreapp2.1/*
+/Tests/bin/Debug/netcoreapp2.1/*
+/Tests/obj/Debug/netcoreapp2.1/*
+/Tests/obj
+/Iban/obj
