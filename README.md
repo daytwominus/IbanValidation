@@ -23,7 +23,7 @@ configuration is available in ./Iban.Validation.WebService/Properties/launchSett
 2. use URL:
 
 ```http
-http:/host/api/iban/validate/{iban}
+http://host:port/api/iban/validate/{iban}
 ```
 
 or CURL:
@@ -80,5 +80,15 @@ try CURL:
 ```cmd
 
 curl --location --request POST "http://localhost:5000/api/iban/validate/" --header "Content-Type: application/json"   --data "{ibans:[\"MT31MALT01100000000000000000123\",\"GB82WEST1234569876543\"]}"
+
+```
+
+## Tests
+
+One can run unit tests from './Tests' dir:
+
+```cmd
+
+dotnet test
 
 ```
